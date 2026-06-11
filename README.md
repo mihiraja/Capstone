@@ -83,6 +83,8 @@ they are restricted and too large for GitHub.
 
 The fake CSV in this repository was hand-created from the model schema so that
 reviewers can verify that the saved models load and produce predictions.
+Both demo tasks use the same synthetic ICU rows: the binary label groups
+three-way `medium` and `long` stays as `longer`.
 
 The full feature-engineering and model-training pipeline was run offline on
 restricted MIMIC-IV-derived data and is not included in this repository. This
