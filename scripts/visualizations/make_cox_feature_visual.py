@@ -5,7 +5,7 @@ import pandas as pd
 import seaborn as sns
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SURVIVAL_DIR = PROJECT_ROOT / "output" / "survival_results"
 
 

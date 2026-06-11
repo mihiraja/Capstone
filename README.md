@@ -40,10 +40,11 @@ runnable notebook. No real patient-level MIMIC-IV data is included.
 - `models/saved/*_metadata.json`
   - Metadata files for each saved model, including target label, classes,
     feature columns, and offline train/test row counts.
-- `source_code/`
-  - Supporting preprocessing, modeling, visualization, and report code from the
-    broader project. This folder is included for reference only; the runnable
-    final submission is `project.ipynb` at the repository root.
+- `scripts/`
+  - Trimmed supporting preprocessing, modeling, and visualization scripts from
+    the broader offline project workflow. These scripts require restricted
+    MIMIC-IV-derived files that are not included; the runnable final submission
+    is `project.ipynb` at the repository root.
 
 ## How to Run
 

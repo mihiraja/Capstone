@@ -5,7 +5,7 @@ import pandas as pd
 import seaborn as sns
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CLASSIFICATION_OUTPUT_DIR = PROJECT_ROOT / "output" / "classification_results"
 OUTPUT_DIR = PROJECT_ROOT / "output" / "model_comparison_figures"
 
