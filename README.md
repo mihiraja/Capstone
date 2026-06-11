@@ -83,3 +83,14 @@ they are restricted and too large for GitHub.
 
 The fake CSV in this repository was hand-created from the model schema so that
 reviewers can verify that the saved models load and produce predictions.
+
+The full feature-engineering and model-training pipeline was run offline on
+restricted MIMIC-IV-derived data and is not included in this repository. This
+GitHub submission is a runnable demonstration of the saved fitted models using
+a small synthetic sample with the same feature schema.
+
+The metrics shown in `project.ipynb` are computed only on the synthetic demo
+rows. They are intended to verify that the saved models load, run, and produce
+interpretable outputs; they should not be interpreted as held-out clinical
+performance estimates. Final model evaluation and interpretation are reported
+in the final project report.
